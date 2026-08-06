@@ -1,10 +1,4 @@
-"""
-Step 2: Data pipeline + classification head, tuned for a small dataset (~60 img/class).
 
-Run locally, same environment as step 1.
-Expects:
-  data/<class_name>/*.jpg   (one subfolder per class)
-"""
 
 import tensorflow as tf
 from tensorflow.keras import layers, models
